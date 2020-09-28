@@ -1,28 +1,12 @@
 import React from 'react';
-import Async from '../utilities/Async';
+import PokemonContainer from './CLASS_BASED_IMPLEMENTATION/PokemonContainer';
 
-class Home extends React.Component {
-  static *asyncGenerator() {
-    const response = yield fetch('https://pokeapi.co/api/v2/pokemon');
-    const json = yield response.json();
-
-    return json;
-  };
-  
-  componentDidMount() {
-    const getData = Async(Home.asyncGenerator);
-
-    console.log(getData().then(d => console.log(d)));
-  }
-
-  render() {
-    return (
-      <>
-        <h1>WELCOME HOME</h1>
-      </>
-    );
-  }
-}
+const Home = props => {
+  return (
+    <>
+      <PokemonContainer />
+    </>
+  );
+};
 
 export default Home;
-
