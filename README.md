@@ -1,6 +1,6 @@
 **react-hooks-demo**
 
-This application demonstrates the usage of React 16.8 Hooks.
+*This application demonstrates the usage of React 16.8 Hooks.*
 
 ![alt](https://github.com/ahamedali95/react-hooks-demo/blob/master/src/Screen-Recording-2020-09-28-at-7.gif)
 
