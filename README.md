@@ -2,6 +2,8 @@
 
 This application demonstrates the usage of React 16.8 Hooks along with comments about its various use cases. 
 
+![alt](Screen-Recording-2020-09-28-at-7.gif)
+
 #### Context 
 
 >Hooks are functions that let you “hook into” React state and lifecycle features from function components. – React docs
