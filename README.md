@@ -1,6 +1,7 @@
 **react-hooks-demo**
 
-*This application demonstrates the usage of React 16.8 Hooks.*
+*This application demonstrates the usage of React 16.8 Hooks. You can find the application logic written in 
+both using classes and hooks so it can help you to compare and relate them.*
 
 ![alt](https://github.com/ahamedali95/react-hooks-demo/blob/master/src/Screen-Recording-2020-09-28-at-7.gif)
 
@@ -14,9 +15,7 @@ Hook is a fairly new concept to React and it was introduced with the React 16.8 
 2. Perform side effects and clean up without lifecycle methods
 3. Write custom hooks to reuse stateful logic
 
->Note: Hooks do not replace class components(or at least not in the near future) but it merely serves as an alternative to class components. So it is advised not to rewrite your existing class components with hooks but rather gain understanding about hooks in the long run and possibly write your future components with hooks. Read more about why Hooks was introduced in the first place here.
-You can find the application logic written in 
-both using classes and hooks so it can help you to compare and relate them. 
+>Note: Hooks do not replace class components(or at least not in the near future) but it merely serves as an alternative to class components. So it is advised not to rewrite your existing class components with hooks but rather gain understanding about hooks in the long run and possibly write your future components with hooks. Read more about why Hooks was introduced in the first place [a here](https://reactjs.org/docs/hooks-intro.html). 
 
 #### References:
 
